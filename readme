@@ -1,6 +1,6 @@
 About the crawler
 - builds on scrapy-playwright
-- avoids bot protection
+- avoids bot protection, but requires proxies to work
 - implements hacky caching of files between requests to save Proxy bandwidth
 - crawl basic pages and automate retrieve of all posts and updates
 - the comment retrieval is separate because the number of comments (N>1.000000) caused issues and required workarounds not to waste resources
